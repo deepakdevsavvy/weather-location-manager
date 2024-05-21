@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState  } from 'react';
 
 const EditLocation = ({ location, onUpdateLocation, onCancelEdit }) => {
   const [city, setCity] = useState(location.city);
