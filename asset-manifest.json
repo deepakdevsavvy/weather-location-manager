@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/weather-location-manager/static/css/main.e3f0a6ec.css",
-    "main.js": "/weather-location-manager/static/js/main.4d9a8968.js",
+    "main.js": "/weather-location-manager/static/js/main.c77c6967.js",
     "static/js/453.ed3810f9.chunk.js": "/weather-location-manager/static/js/453.ed3810f9.chunk.js",
     "index.html": "/weather-location-manager/index.html",
     "main.e3f0a6ec.css.map": "/weather-location-manager/static/css/main.e3f0a6ec.css.map",
-    "main.4d9a8968.js.map": "/weather-location-manager/static/js/main.4d9a8968.js.map",
+    "main.c77c6967.js.map": "/weather-location-manager/static/js/main.c77c6967.js.map",
     "453.ed3810f9.chunk.js.map": "/weather-location-manager/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3f0a6ec.css",
-    "static/js/main.4d9a8968.js"
+    "static/js/main.c77c6967.js"
   ]
 }
