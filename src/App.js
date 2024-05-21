@@ -107,11 +107,10 @@ const App = () => {
 
   return (
     <>
-    <Router>
+    <Router basename="/weather-location-manager">
       <Layout isAuthenticated={isAuthenticated} onLogout={handleLogout}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/weather-location-manager" element={<Home />} />
           <Route path="/signup" element={isAuthenticated ? <Navigate to="/profile" /> : <Signup onSignup={handleSignup} />} />
           <Route path="/login" element={isAuthenticated ? <Navigate to="/profile" /> : <Login onLogin={handleLogin} />} />
           <Route path="/profile" element={isAuthenticated ? <Profile /> : <Navigate to="/login" />} />
